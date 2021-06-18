@@ -8,3 +8,10 @@ elif feeling =="sad":
   print("That's not good then")
 else:
   print("OK")
+print("What is your favourite sport")
+sport=input()
+if sport=="football":
+  print("What team do you support")
+  team=input()
+if team=="Scotland" or team=="scotland" :
+  print("You aren't very good are you?")
