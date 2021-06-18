@@ -10,8 +10,8 @@ else:
   print("OK")
 print("What is your favourite sport")
 sport=input()
-if sport=="football":
+if sport=="football" or sport=="football":
   print("What team do you support")
   team=input()
-if team=="Scotland" or team=="scotland" :
-  print("You aren't very good are you?")
+  if team=="Scotland" or team=="scotland" :
+   print("You aren't very good are you?")
